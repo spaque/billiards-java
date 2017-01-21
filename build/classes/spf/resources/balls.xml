@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : balls.xml
+    Created on : 20 de mayo de 2008, 22:58
+    Author     : Sergio Paque Martin
+    Description:
+        Bolas de billar.
+-->
+
+<SPF>
+	<Scene>
+		<BranchGroup>
+			<TransformGroup transY="-0.82" transX = "-1">
+				<Object name="BolaBlanca" type="Sphere" radius="0.05">
+					<Color r="0.6" g="0.1" b="0.4"/>
+					<Material>
+						<Ambient r="0.5" g="0.5" b="0.5"/>
+						<Diffuse r="1" g="1" b="1"/>
+						<Emissive r="0" g="0" b="0"/>
+						<Shininess s="32"/>
+						<Specular r="0.8" g="0.8" b="0.8"/>
+					</Material>
+					<Texture filename="BolaBlanca.jpg"/>
+				</Object>
+			</TransformGroup>
+			<TransformGroup transY="-0.87" transX = "-1">
+				<Object name="SombraBolaBlanca" type="Cylinder" radius="0.05" height="0.01">
+					<Color r="0.0" g="0.0" b="0.0"/>
+					<Transparency value="0.5"/>
+				</Object>
+			</TransformGroup>
+			<TransformGroup transY="-0.82" transX = "1.2" rotX="20" rotY="-10" rotZ="10">
+				<Object name="Bola1" type="Sphere" radius="0.05">
+					<Color r="0.6" g="0.1" b="0.4"/>
+					<Material>
+						<Ambient r="0.5" g="0.5" b="0.5"/>
+						<Diffuse r="1" g="1" b="1"/>
+						<Emissive r="0" g="0" b="0"/>
+						<Shininess s="32"/>
+						<Specular r="0.8" g="0.8" b="0.8"/>
+					</Material>
+					<Texture filename="Bola1.jpg"/>
+				</Object>
+			</TransformGroup>
+			<TransformGroup transY="-0.87" transX = "1.2">
+				<Object name="SombraBola1" type="Cylinder" radius="0.05" height="0.01">
+					<Color r="0.0" g="0.0" b="0.0"/>
+					<Transparency value="0.5"/>
+				</Object>
+			</TransformGroup>
+			<TransformGroup transY="-0.82" transX="1.38" rotX="-20" rotY="20" rotZ="-10">
+				<Object name="Bola8" type="Sphere" radius="0.05">
+					<Color r="0.6" g="0.1" b="0.4"/>
+					<Material>
+						<Ambient r="0.5" g="0.5" b="0.5"/>
+						<Diffuse r="1" g="1" b="1"/>
+						<Emissive r="0" g="0" b="0"/>
+						<Shininess s="32"/>
+						<Specular r="0.8" g="0.8" b="0.8"/>
+					</Material>
+					<Texture filename="Bola8.jpg"/>
+				</Object>
+			</TransformGroup>
+			<TransformGroup transY="-0.87" transX="1.38">
+				<Object name="SombraBola8" type="Cylinder" radius="0.05" height="0.01">
+					<Color r="0.0" g="0.0" b="0.0"/>
+					<Transparency value="0.5"/>
+				</Object>
+			</TransformGroup>
+			<TransformGroup transY="-0.82" transX="1.29" transZ="-0.05" rotX="50" rotY="30" rotZ="-100">
+				<Object name="Bola2" type="Sphere" radius="0.05">
+					<Color r="0.6" g="0.1" b="0.4"/>
+					<Material>
+						<Ambient r="0.5" g="0.5" b="0.5"/>
+						<Diffuse r="1" g="1" b="1"/>
+						<Emissive r="0" g="0" b="0"/>
+						<Shininess s="32"/>
+						<Specular r="0.8" g="0.8" b="0.8"/>
+					</Material>
+					<Texture filename="Bola2.jpg"/>
+				</Object>
+			</TransformGroup>
+			<TransformGroup transY="-0.87" transX="1.29" transZ="-0.05">
+				<Object name="SombraBola2" type="Cylinder" radius="0.05" height="0.01">
+					<Color r="0.0" g="0.0" b="0.0"/>
+					<Transparency value="0.5"/>
+				</Object>
+			</TransformGroup>
+			<TransformGroup transY="-0.82" transX="1.29" transZ="0.05" rotX="-200" rotY="29" rotZ="80">
+				<Object name="Bola10" type="Sphere" radius="0.05">
+					<Color r="0.6" g="0.1" b="0.4"/>
+					<Material>
+						<Ambient r="0.5" g="0.5" b="0.5"/>
+						<Diffuse r="1" g="1" b="1"/>
+						<Emissive r="0" g="0" b="0"/>
+						<Shininess s="32"/>
+						<Specular r="0.8" g="0.8" b="0.8"/>
+					</Material>
+					<Texture filename="Bola10.jpg"/>
+				</Object>
+			</TransformGroup>
+			<TransformGroup transY="-0.87" transX="1.29" transZ="0.05">
+				<Object name="SombraBola10" type="Cylinder" radius="0.05" height="0.01">
+					<Color r="0.0" g="0.0" b="0.0"/>
+					<Transparency value="0.5"/>
+				</Object>
+			</TransformGroup>
+			<TransformGroup transY="-0.82" transX="1.38" transZ="0.1" rotX="40" rotY="135" rotZ="10">
+				<Object name="Bola3" type="Sphere" radius="0.05">
+					<Color r="0.6" g="0.1" b="0.4"/>
+					<Material>
+						<Ambient r="0.5" g="0.5" b="0.5"/>
+						<Diffuse r="1" g="1" b="1"/>
+						<Emissive r="0" g="0" b="0"/>
+						<Shininess s="32"/>
+						<Specular r="0.8" g="0.8" b="0.8"/>
+					</Material>
+					<Texture filename="Bola3.jpg"/>
+				</Object>
+			</TransformGroup>
+			<TransformGroup transY="-0.87" transX="1.38" transZ="0.1">
+				<Object name="SombraBola3" type="Cylinder" radius="0.05" height="0.01">
+					<Color r="0.0" g="0.0" b="0.0"/>
+					<Transparency value="0.5"/>
+				</Object>
+			</TransformGroup>
+			<TransformGroup transY="-0.82" transX="1.38" transZ="-0.1" rotX="-20" rotY="-20" rotZ="-10">
+				<Object name="Bola11" type="Sphere" radius="0.05">
+					<Color r="0.6" g="0.1" b="0.4"/>
+					<Material>
+						<Ambient r="0.5" g="0.5" b="0.5"/>
+						<Diffuse r="1" g="1" b="1"/>
+						<Emissive r="0" g="0" b="0"/>
+						<Shininess s="32"/>
+						<Specular r="0.8" g="0.8" b="0.8"/>
+					</Material>
+					<Texture filename="Bola11.jpg"/>
+				</Object>
+			</TransformGroup>
+			<TransformGroup transY="-0.87" transX="1.38" transZ="-0.1">
+				<Object name="SombraBola11" type="Cylinder" radius="0.05" height="0.01">
+					<Color r="0.0" g="0.0" b="0.0"/>
+					<Transparency value="0.5"/>
+				</Object>
+			</TransformGroup>
+			<TransformGroup transY="-0.82" transX="1.47" transZ="0.15" rotX="85" rotY="5" rotZ="100">
+				<Object name="Bola12" type="Sphere" radius="0.05">
+					<Color r="0.6" g="0.1" b="0.4"/>
+					<Material>
+						<Ambient r="0.5" g="0.5" b="0.5"/>
+						<Diffuse r="1" g="1" b="1"/>
+						<Emissive r="0" g="0" b="0"/>
+						<Shininess s="32"/>
+						<Specular r="0.8" g="0.8" b="0.8"/>
+					</Material>
+					<Texture filename="Bola12.jpg"/>
+				</Object>
+			</TransformGroup>
+			<TransformGroup transY="-0.87" transX="1.47" transZ="0.15">
+				<Object name="SombraBola12" type="Cylinder" radius="0.05" height="0.01">
+					<Color r="0.0" g="0.0" b="0.0"/>
+					<Transparency value="0.5"/>
+				</Object>
+			</TransformGroup>
+			<TransformGroup transY="-0.82" transX="1.47" transZ="0.05" rotX="70" rotY="30" rotZ="190">
+				<Object name="Bola5" type="Sphere" radius="0.05">
+					<Color r="0.6" g="0.1" b="0.4"/>
+					<Material>
+						<Ambient r="0.5" g="0.5" b="0.5"/>
+						<Diffuse r="1" g="1" b="1"/>
+						<Emissive r="0" g="0" b="0"/>
+						<Shininess s="32"/>
+						<Specular r="0.8" g="0.8" b="0.8"/>
+					</Material>
+					<Texture filename="Bola5.jpg"/>
+				</Object>
+			</TransformGroup>
+			<TransformGroup transY="-0.87" transX="1.47" transZ="0.05">
+				<Object name="SombraBola5" type="Cylinder" radius="0.05" height="0.01">
+					<Color r="0.0" g="0.0" b="0.0"/>
+					<Transparency value="0.5"/>
+				</Object>
+			</TransformGroup>
+			<TransformGroup transY="-0.82" transX="1.47" transZ="-0.05" rotX="136" rotY="31" rotZ="81">
+				<Object name="Bola13" type="Sphere" radius="0.05">
+					<Color r="0.6" g="0.1" b="0.4"/>
+					<Material>
+						<Ambient r="0.5" g="0.5" b="0.5"/>
+						<Diffuse r="1" g="1" b="1"/>
+						<Emissive r="0" g="0" b="0"/>
+						<Shininess s="32"/>
+						<Specular r="0.8" g="0.8" b="0.8"/>
+					</Material>
+					<Texture filename="Bola13.jpg"/>
+				</Object>
+			</TransformGroup>
+			<TransformGroup transY="-0.87" transX="1.47" transZ="-0.05">
+				<Object name="SombraBola13" type="Cylinder" radius="0.05" height="0.01">
+					<Color r="0.0" g="0.0" b="0.0"/>
+					<Transparency value="0.5"/>
+				</Object>
+			</TransformGroup>
+			<TransformGroup transY="-0.82" transX="1.47" transZ="-0.15" rotX="91" rotY="46" rotZ="56">
+				<Object name="Bola4" type="Sphere" radius="0.05">
+					<Color r="0.6" g="0.1" b="0.4"/>
+					<Material>
+						<Ambient r="0.5" g="0.5" b="0.5"/>
+						<Diffuse r="1" g="1" b="1"/>
+						<Emissive r="0" g="0" b="0"/>
+						<Shininess s="32"/>
+						<Specular r="0.8" g="0.8" b="0.8"/>
+					</Material>
+					<Texture filename="Bola4.jpg"/>
+				</Object>
+			</TransformGroup>
+			<TransformGroup transY="-0.87" transX="1.47" transZ="-0.15">
+				<Object name="SombraBola4" type="Cylinder" radius="0.05" height="0.01">
+					<Color r="0.0" g="0.0" b="0.0"/>
+					<Transparency value="0.5"/>
+				</Object>
+			</TransformGroup>
+			<TransformGroup transY="-0.82" transX="1.56" transZ="0.2" rotX="84" rotY="17" rotZ="19">
+				<Object name="Bola6" type="Sphere" radius="0.05">
+					<Color r="0.6" g="0.1" b="0.4"/>
+					<Material>
+						<Ambient r="0.5" g="0.5" b="0.5"/>
+						<Diffuse r="1" g="1" b="1"/>
+						<Emissive r="0" g="0" b="0"/>
+						<Shininess s="32"/>
+						<Specular r="0.8" g="0.8" b="0.8"/>
+					</Material>
+					<Texture filename="Bola6.jpg"/>
+				</Object>
+			</TransformGroup>
+			<TransformGroup transY="-0.87" transX="1.56" transZ="0.2">
+				<Object name="SombraBola6" type="Cylinder" radius="0.05" height="0.01">
+					<Color r="0.0" g="0.0" b="0.0"/>
+					<Transparency value="0.5"/>
+				</Object>
+			</TransformGroup>
+			<TransformGroup transY="-0.82" transX="1.56" transZ="0.1" rotX="2" rotY="210" rotZ="10">
+				<Object name="Bola15" type="Sphere" radius="0.05">
+					<Color r="0.6" g="0.1" b="0.4"/>
+					<Material>
+						<Ambient r="0.5" g="0.5" b="0.5"/>
+						<Diffuse r="1" g="1" b="1"/>
+						<Emissive r="0" g="0" b="0"/>
+						<Shininess s="32"/>
+						<Specular r="0.8" g="0.8" b="0.8"/>
+					</Material>
+					<Texture filename="Bola15.jpg"/>
+				</Object>
+			</TransformGroup>
+			<TransformGroup transY="-0.87" transX="1.56" transZ="0.1">
+				<Object name="SombraBola15" type="Cylinder" radius="0.05" height="0.01">
+					<Color r="0.0" g="0.0" b="0.0"/>
+					<Transparency value="0.5"/>
+				</Object>
+			</TransformGroup>
+			<TransformGroup transY="-0.82" transX="1.56" rotX="-250" rotY="10" rotZ="120">
+				<Object name="Bola9" type="Sphere" radius="0.05">
+					<Color r="0.6" g="0.1" b="0.4"/>
+					<Material>
+						<Ambient r="0.5" g="0.5" b="0.5"/>
+						<Diffuse r="1" g="1" b="1"/>
+						<Emissive r="0" g="0" b="0"/>
+						<Shininess s="32"/>
+						<Specular r="0.8" g="0.8" b="0.8"/>
+					</Material>
+					<Texture filename="Bola9.jpg"/>
+				</Object>
+			</TransformGroup>
+			<TransformGroup transY="-0.87" transX="1.56">
+				<Object name="SombraBola9" type="Cylinder" radius="0.05" height="0.01">
+					<Color r="0.0" g="0.0" b="0.0"/>
+					<Transparency value="0.5"/>
+				</Object>
+			</TransformGroup>
+			<TransformGroup transY="-0.82" transX="1.56" transZ="-0.1" rotX="20" rotY="50" rotZ="10">
+				<Object name="Bola7" type="Sphere" radius="0.05">
+					<Color r="0.6" g="0.1" b="0.4"/>
+					<Material>
+						<Ambient r="0.5" g="0.5" b="0.5"/>
+						<Diffuse r="1" g="1" b="1"/>
+						<Emissive r="0" g="0" b="0"/>
+						<Shininess s="32"/>
+						<Specular r="0.8" g="0.8" b="0.8"/>
+					</Material>
+					<Texture filename="Bola7.jpg"/>
+				</Object>
+			</TransformGroup>
+			<TransformGroup transY="-0.87" transX="1.56" transZ="-0.1">
+				<Object name="SombraBola7" type="Cylinder" radius="0.05" height="0.01">
+					<Color r="0.0" g="0.0" b="0.0"/>
+					<Transparency value="0.5"/>
+				</Object>
+			</TransformGroup>
+			<TransformGroup transY="-0.82" transX="1.56" transZ="-0.2" rotX="-20" rotY="20" rotZ="-10">
+				<Object name="Bola14" type="Sphere" radius="0.05">
+					<Color r="0.6" g="0.1" b="0.4"/>
+					<Material>
+						<Ambient r="0.5" g="0.5" b="0.5"/>
+						<Diffuse r="1" g="1" b="1"/>
+						<Emissive r="0" g="0" b="0"/>
+						<Shininess s="32"/>
+						<Specular r="0.8" g="0.8" b="0.8"/>
+					</Material>
+					<Texture filename="Bola14.jpg"/>
+				</Object>
+			</TransformGroup>
+			<TransformGroup transY="-0.87" transX="1.56" transZ="-0.2">
+				<Object name="SombraBola14" type="Cylinder" radius="0.05" height="0.01">
+					<Color r="0.0" g="0.0" b="0.0"/>
+					<Transparency value="0.5"/>
+				</Object>
+			</TransformGroup>
+		</BranchGroup>
+	</Scene>
+</SPF>

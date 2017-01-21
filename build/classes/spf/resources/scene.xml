@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : scene.xml
+    Created on : 8 de mayo de 2008, 19:48
+    Author     : Sergio Paque Martin
+    Description:
+        Escena para cargar.
+-->
+
+<SPF>
+	<Scene>
+		<BranchGroup>
+			<!-- Habitacion -->
+			<TransformGroup transZ="-16">
+				<Object name="Pared1" type="Quad" height="4" width="16" s="2">
+					<Material>
+						<Ambient r="0.5" g="0.5" b="0.5"/>
+						<Diffuse r="1" g="1" b="1"/>
+						<Specular r="0" g="0" b="0"/>
+					</Material>
+					<Texture filename="interior-wall01.jpg"/>
+				</Object>
+			</TransformGroup>
+			<TransformGroup transX="-8" rotY="90">
+				<Object name="Pared2" type="Quad" height="4" width="32" s="2">
+					<Material>
+						<Ambient r="0.5" g="0.5" b="0.5"/>
+						<Diffuse r="1" g="1" b="1"/>
+						<Specular r="0" g="0" b="0"/>
+					</Material>
+					<Texture filename="interior-wall01.jpg"/>
+				</Object>
+			</TransformGroup>
+			<TransformGroup transX="8" rotY="-90">
+				<Object name="Pared3" type="Quad" height="4" width="32" s="2">
+					<Material>
+						<Ambient r="0.5" g="0.5" b="0.5"/>
+						<Diffuse r="1" g="1" b="1"/>
+						<Specular r="0" g="0" b="0"/>
+					</Material>
+					<Texture filename="interior-wall01.jpg"/>
+				</Object>
+			</TransformGroup>
+			<TransformGroup transZ="16" rotY="180">
+				<Object name="Pared4" type="Quad" height="4" width="16" s="2">
+					<Material>
+						<Ambient r="0.5" g="0.5" b="0.5"/>
+						<Diffuse r="1" g="1" b="1"/>
+						<Specular r="0" g="0" b="0"/>
+					</Material>
+					<Texture filename="interior-wall01.jpg"/>
+				</Object>
+			</TransformGroup>
+			<TransformGroup transY="2" rotX="90">
+				<Object name="Techo" type="Quad" height="32" width="16" s="2" t="2">
+					<Material>
+						<Ambient r="0.5" g="0.5" b="0.5"/>
+						<Diffuse r="1" g="1" b="1"/>
+						<Specular r="0" g="0" b="0"/>
+					</Material>
+					<Texture filename="Brown9.JPG"/>
+				</Object>
+			</TransformGroup>
+			<TransformGroup transY="-2" rotX="-90">
+				<Object name="Suelo" type="Quad" height="32" width="16" s="8" t="4">
+					<Material>
+						<Ambient r="0.5" g="0.5" b="0.5"/>
+						<Diffuse r="1" g="1" b="1"/>
+						<Specular r="0" g="0" b="0"/>
+					</Material>
+					<Texture filename="WoodOne.jpg"/>
+				</Object>
+			</TransformGroup>
+			<!-- Fin Habitacion -->
+			<TransformGroup transY="-1.5" scale="2.5">
+				<Object name="mesa" type="OBJ" filename="mesa3.obj" matlib="mesa3.mtl"/>
+			</TransformGroup>
+			<TransformGroup transZ="15.5" transX="-4" transY="-1" rotY="180" scale="1">
+				<Object name="jukebox" type="OBJ" filename="jukebox.obj" matlib="jukebox.mtl"/>
+			</TransformGroup>
+			<TransformGroup transZ="-11.3" transY="0.33" scale="0.3">
+			    <Object name="teapot" type="OBJ" filename="teapot.obj" matlib="teapot.mtl"/>
+			</TransformGroup>
+			<TransformGroup transY="1.6" scale="0.6">
+			    <Object name="lamp" type="OBJ" filename="lamp.obj" matlib="lamp.mtl"/>
+			</TransformGroup>
+			<TransformGroup transX="25" transY="-0.9" transZ="-33" rotX="-90" scale="28">
+			    <Object name="bar" type="OBJ" filename="bar_obj.obj" matlib="bar_obj.mtl"/>
+			</TransformGroup>
+			<TransformGroup transX="-0.8" transY="-0.08" transZ="-15.75" scale="2">
+			    <Object name="shelf" type="OBJ" filename="bookshelf.obj" matlib="bookshelf.mtl"/>
+			</TransformGroup>
+			<TransformGroup transX="1" transY="-1.2" transZ="-10.2" scale="3.5">
+			    <Object name="chair01" type="OBJ" filename="chair.obj" matlib="chair.mtl"/>
+			</TransformGroup>
+			<TransformGroup transX="3" transY="-1.2" transZ="-10" scale="3.5">
+			    <Object name="chair02" type="OBJ" filename="chair.obj" matlib="chair.mtl"/>
+			</TransformGroup>
+			<TransformGroup transX="5" transY="-1.2" transZ="-10.1" scale="3.5">
+			    <Object name="chair03" type="OBJ" filename="chair.obj" matlib="chair.mtl"/>
+			</TransformGroup>
+			<TransformGroup transX="3" transY="-0.5" transZ="-15.9" scale="1.8">
+			    <Object name="door" type="OBJ" filename="door.obj" matlib="door.mtl"/>
+			</TransformGroup>
+			<TransformGroup rotY="90" transX="2" transY="-0.52" transZ="5" scale="12">
+			    <Object name="rev_door" type="OBJ" filename="revolving_door.obj" matlib="revolving_door.mtl"/>
+			</TransformGroup>
+			<TransformGroup rotZ="90"  rotX="90" transY="0.7" transX="7.9" scale="0.8">
+				<Object name="cuadroperros" type="OBJ" filename="cuadroperros.obj" matlib="cuadroperros.mtl"/>
+			</TransformGroup>
+			<TransformGroup  rotX="90" transZ = "-15.9" transY="0.7" transX="-4" scale="0.8">
+				<Object name="cocktail2" type="OBJ" filename="cocktail2.obj" matlib="cocktail2.mtl"/>
+			</TransformGroup>
+			<TransformGroup rotZ="-90"  rotX="90" transY="0.7" transX="-7.9" transZ = "3" scale="0.8">
+				<Object name="billiarneon" type="OBJ" filename="billiardneon.obj" matlib="billiardneon.mtl"/>
+			</TransformGroup>
+			<TransformGroup rotZ="-90"  rotX="90" transY="0.7" transX="-7.9" transZ = "-1" scale="0.8">
+				<Object name="budlight" type="OBJ" filename="budlight.obj" matlib="budlight.mtl"/>
+			</TransformGroup>
+			<TransformGroup rotZ="-90"  rotX="90" transY="0.7" transX="-7.9" transZ = "-5" scale="0.8">
+				<Object name="cocktail" type="OBJ" filename="cocktail.obj" matlib="cocktail.mtl"/>
+			</TransformGroup>
+			<AmbientLight r="0.7" g="0.7" b="0.7"/>
+			<DirectionalLight r="0.4" g="0.4" b="0.4" dirX="-0.2" dirY="-1.0" dirZ="0.0"/>
+			<DirectionalLight r="0.3" g="0.3" b="0.3" dirX="0.2" dirY="-1.0" dirZ="0.0"/>
+		</BranchGroup>
+	</Scene>
+</SPF>

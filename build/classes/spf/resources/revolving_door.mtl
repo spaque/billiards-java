@@ -1,0 +1,20 @@
+# Max2Mtl Version 4.0 Mar 10th, 2001
+#
+newmtl frame
+Ka  0.5 0.5 0.5
+Kd  0.9 0.9 0.9
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  10.0
+illum 2
+map_Kd Vishnia_2.jpg
+#
+newmtl glass_drev
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  0.9 0.9 0.9
+d  1
+Ns  8.0
+illum 2
+#
+# EOF
